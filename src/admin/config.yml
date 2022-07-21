@@ -29,8 +29,8 @@ collections:
         add_to_top: true
         collapsed: false
         fields:
-          - {label: tag, name: tag, widget: string}
-          - {label: url, name: url, widget: string}
+          - { label: Tag, name: tag, widget: string }
+          - { label: url, name: url, widget: string }
   - label: "Settings"
     name: "settings"
     editor:
