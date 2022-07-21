@@ -27,6 +27,7 @@ collections:
         label: "Tags"
         name: "tags"
         add_to_top: true
+        collapsed: false
         field: {label: tag, name: tag, widget: string}
   - label: "Settings"
     name: "settings"
