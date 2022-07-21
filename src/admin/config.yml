@@ -26,7 +26,8 @@ collections:
       - widget: "list"
         label: "Tags"
         name: "tags"
-        field: {label: "Tag", name: "tag", widget: "list"}
+        add_to_top: true
+        allow_add: true
   - label: "Settings"
     name: "settings"
     editor:
