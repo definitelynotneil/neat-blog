@@ -1,3 +1,5 @@
 items:
   - text: Blog
     url: /blog
+  - text: Admin nav link
+    url: /admin
