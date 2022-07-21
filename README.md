@@ -5,9 +5,10 @@
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-### Build the project to generate the first CSS
-
+### Build the project to generate 
 This step is only required the very first time
+
+i ran into some config problems and running it multiple times seemed to solve some setup issues.
 
 ```
 npm run build
@@ -18,3 +19,6 @@ npm run build
 ```
 npm run start
 ```
+
+ctr+c twice cancels this while keeping the terminal open in vscode.
+
