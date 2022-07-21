@@ -1,5 +1,4 @@
----
 links:
-  - title: Best Article on This topic
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
+  - title: Best Article on THIS topic
+    url: https://tailwindcss.com/
+    desc: A utility-first CSS framework for rapidly building custom designs.
