@@ -5,15 +5,15 @@
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-### 4\. Build the project to generate the first CSS
+### Build the project to generate the first CSS
 
-This step is only required the very first time.
+This step is only required the very first time
 
 ```
 npm run build
 ```
 
-### 5\. Run Eleventy
+### Run Eleventy
 
 ```
 npm run start
