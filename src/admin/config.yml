@@ -23,12 +23,7 @@ collections:
       - { label: "Author", name: "author", widget: "string", default: "Winsington Vegetable" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - widget: "relation"
-        collection: "blog"
-        label: "Related Posts"
-        name: "related"
-        search_fields: ['title']
-        value_field: "{{slug}}"
+      - { label: "Related Posts", widget: "relation", collection: "blog", name: "related", search_fields: ['title'], value_field: "{{slug}}" }
   - label: "Pages"
     name: "pages"
     folder: "src/pages"
