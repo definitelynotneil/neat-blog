@@ -6,7 +6,7 @@ public_folder: "/static/img"
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 media_library:
-  name: Media
+  name: Media Library
 collections:
   - label: "Blog"
     name: "blog"
