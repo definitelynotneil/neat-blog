@@ -13,7 +13,7 @@ prism: true
 
         {% for tag in tags %}
         <p>
-            {{tag}}
+            <a href="{{ settings.url }}/{{tag}}"> {{tag}} </a>
         </p>
         {% endfor %}
 
