@@ -13,4 +13,10 @@ path: home
     <strong>{{title}}</strong>
   </h1>
   <p>Quick, quality tutorials written by <a href="{{ settings.url }}">{{ settings.author }}</a>.</p>
+
+  {% if posts %}
+  {% for post in posts %}
+  <p>{{post}}</p>
+  {% endfor %}
+  {% endif %}
 </div>
