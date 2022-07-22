@@ -7,6 +7,6 @@ tags:
   - tag one
   - tag two
 url: /test
-related: test-blog
+related: relationsional-test
 ---
 blog a rific
