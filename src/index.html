@@ -14,9 +14,15 @@ path: home
   {% if collections.post %}
   {% for post in collections.post %}
   <a href="{{ post.url }}">
-    <p>{{ post.data.title }} - {{ post.data.description }}</p>
+    <p>{{ post.data.title }}</p>
   </a>
+  <p>{{ post.related }}</p>
   {% endfor %}
   {% endif %}
+
+
+  <!--testing relationship for posts-->
+
+
 
 </div>
