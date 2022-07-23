@@ -19,7 +19,7 @@ collections:
       - { label: "Author", name: "author", widget: "string", default: "Winsington Vegetable" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Related Posts", widget: "relation", collection: "blog", name: "related", search_fields: ['title'], value_field: "{{slug}}", required: false }
+      - { label: "Related Playlist", name: "related", widget: "relation", collection: "playlists", search_fields: ['title'], value_field: "{{slug}}", required: false }
   - label: "Pages"
     name: "pages"
     folder: "src/pages"
@@ -57,3 +57,9 @@ collections:
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
           - { label: Description, name: description, widget: string }
+      - label: "Post Playlists"
+        name: "playlists"
+        file: "src/_data/playlists.yaml"
+        fields:
+          - { label: Playlist Name, name: playlist, widget: string }
+          - { label: Post, name: post, widget: relation, collection: blog }
