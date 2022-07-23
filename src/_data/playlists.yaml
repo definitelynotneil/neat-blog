@@ -1,2 +1,3 @@
 name: Plyalist1
-playlist: playlist#111
+playlist:
+  - playlist111
