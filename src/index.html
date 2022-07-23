@@ -7,10 +7,16 @@ path: home
 <!-- main -->
 <div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
   <h1>
-    <strong>{{title}}</strong>
+    <strong>{{ title }}</strong>
   </h1>
-  <p>Quick, quality tutorials written by <a href="{{ settings.url }}/about">{{ settings.author }}</a>.</p>
-
-  <p>home test</p>
+  <p>Quick, quality tutorials.</p>
+  <hr class="w-full my-6" />
+  {% if collections.post %}
+  {% for post in collections.post %}
+  <a href="#">
+    <p>{{ post.data.title }} - {{ post.data.description }}</p>
+  </a>
+  {% endfor %}
+  {% endif %}
 
 </div>
