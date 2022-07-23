@@ -9,11 +9,11 @@ path: home
   <h1>
     <strong>{{ title }}</strong>
   </h1>
-  <p>Quick, quality tutorials.</p>
+  <p>{{ settings.description }}</p>
   <hr class="w-full my-6" />
   {% if collections.post %}
   {% for post in collections.post %}
-  <a href="#">
+  <a href="{{ post.url }}">
     <p>{{ post.data.title }} - {{ post.data.description }}</p>
   </a>
   {% endfor %}
