@@ -1,6 +1,7 @@
 ---
-title: Best Person Ever
-description: "my phd dissertation on why being a cartoon vegetable is better than being a human."
+title: Best Person Ever#1
+description: my phd dissertation on why being a cartoon vegetable is better than
+  being a human.
 author: Winsington Vegetable
 date: 2022-07-22T23:28:38.571Z
 ---
